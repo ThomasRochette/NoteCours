@@ -1,10 +1,12 @@
 # NoteCours
-Notes de cours
+Dépot contenant les notes de cours, ce fichier contient aussi les exemples pour coder en markdown.
+
+---
 
 Title 1
 ==
 Title 2
--
+--
 ### Title 3 #
 ####  Title 4
 
