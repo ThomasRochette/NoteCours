@@ -46,10 +46,17 @@ Texte _dont_ certains __éléments__ sont formatés **pour _être_** en *italiqu
 ---
 
 <!-- texte en commentaire -->
-``for{print;}``
+`for{print;}`
+
+    code
+    for{
+      print;
+    }
 
 ---
 
+<!-- les : indiques l'allignement -->
 colonne 1|colonne 2|colonne 3
 --|:--:|--:
 contenu 1|contenu 2|contenu 3
+1|2|3
