@@ -69,5 +69,5 @@ contenu 1|contenu 2|contenu 3
 
 ---
 
-- [ ]
+- [ ] checkout box
 - [ ]
