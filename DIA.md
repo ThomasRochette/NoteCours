@@ -7,17 +7,17 @@
 ---
 ### Fonctionnement
 
-Docker créer une image docker dans un conteneur docker avec toutes les dépendances.
+Docker créer une image docker dans un conteneur docker avec toutes les dépendances nécessaire pour l'application.
 
 #### Architecture
 1 application = 1 conteneur
 
 **Virtual Machine vs Docker :**
-Docker tourne directement sur le système au lieu de tourner sur le système d'exploitation
+Docker tourne directement sur le système machine au lieu de tourner sur le système d'exploitation
 
 #### En développement
 
-Peut être utiliser pour un service tiers (ex : base de données) permet de ne pas poluer l'environnement avec les dépendances .
+Peut être utiliser pour un service tiers (ex : base de données) permet de ne pas poluer l'environnement avec les dépendances.
 
 #### Ecosystème
 
@@ -67,7 +67,7 @@ D'autres option après le run peuvent être utiles comme -d qui permet de faire 
 
 Pour avoir la liste des conteneurs
 
-    docker containeur ls -a
+    docker container ls -a
 
 Le ls donne les conteneurs démarés le -a donne tout les conteneurs.
 
@@ -141,4 +141,4 @@ association explicite :
 
 ### Multi Conteneurs
 
-Docker compose s'utilise avec python. 
+Docker compose s'utilise avec python.
