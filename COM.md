@@ -125,3 +125,6 @@ Nécessite un paramétrage avancé en amont mais permet un suivi de toutes les a
 * taux de conversion par rapport au nombre de session
 
 ---
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwNjY4OTczMTNdfQ==
+-->

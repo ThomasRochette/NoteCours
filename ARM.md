@@ -57,3 +57,6 @@ L'authentification est régulierement déclanché par le réseau.
 * Intégrité des messages
 * Chiffrement
 * Meilleur algorithme pour la confidentialité et l'intégrité
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTY4MDAyOTg4XX0=
+-->

@@ -56,3 +56,6 @@ Sur le réseau de collecte 3 options :
 Sur l'Interface Utilisateur :
 * Tag de VLAN
 * Circuits virtuels
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExODIzNjExMTNdfQ==
+-->
