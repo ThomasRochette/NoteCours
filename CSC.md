@@ -111,7 +111,7 @@ Si changement de clé de insa-lyon, resigner tout les enregitrement et changemen
 ---
 ---
 
-## Cours 
+## Cours
 
 ```mermaid
 sequenceDiagram
