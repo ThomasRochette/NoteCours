@@ -36,7 +36,7 @@ Verification de la version :
 docker version
 ```
 
-`enter code here`Donne la version du client et du serveur
+Donne la version du client et du serveur
 
 ### Conteneurs
 
@@ -144,5 +144,5 @@ association explicite :
 
 Docker compose s'utilise avec python.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc4Mzc1MzJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzI3MDc3NTVdfQ==
 -->
