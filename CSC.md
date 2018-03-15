@@ -120,5 +120,3 @@ Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 
-test 02
-
