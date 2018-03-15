@@ -101,7 +101,7 @@ Lorsque l’on veut accéder à un site web (ex <a href="http://www.facebook.com
 <tr>
 <td>fr</td>
 <td>RRSIG</td>
-<td>Sig(h(K’pub))Kpr</td>
+<td>Sig(h(K’pub))<sub>Kpr</sub></td>
 </tr>
 </tbody>
 </table><ul>
@@ -136,7 +136,7 @@ Lorsque l’on veut accéder à un site web (ex <a href="http://www.facebook.com
 <tr>
 <td>insa-lyon</td>
 <td>RRSIG</td>
-<td>Sig(h(K’'pub))K’pr</td>
+<td>Sig(h(K’'pub))<sub>K’pr</sub></td>
 </tr>
 </tbody>
 </table><ul>
@@ -171,11 +171,15 @@ Lorsque l’on veut accéder à un site web (ex <a href="http://www.facebook.com
 <tr>
 <td>www</td>
 <td>RRSIG A</td>
-<td>Sig(E1)K’'pr</td>
+<td>Sig(E1)<sub>K’'pr</sub></td>
 </tr>
 </tbody>
 </table><p>Modification ou ajout d’un enregistrement à <a href="http://insa-lyon.fr">insa-lyon.fr</a> :</p>
 <p>ex: <a href="http://depart-numerique.insalyon.fr">depart-numerique.insalyon.fr</a></p>
 <p>Aucun impact sur les autres zones, il faut seulement ajouter/ modifier l’enregitrement en question et resigner cet enregistrement.</p>
 <p>Si changement de clé de insa-lyon, resigner tout les enregitrement et changement de la signature de notre clé publique au niveau de la zone parente.</p>
+<hr>
+<hr>
+<h2 id="cours">Cours</h2>
+<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-M0pjnNYOQvHRUFM8" height="100%" width="100%" style="max-width:450px;" viewBox="-50 -10 450 266"><g></g><g><line id="actor209" x1="75" y1="5" x2="75" y2="255" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Client</tspan></text></g><g><line id="actor210" x1="275" y1="5" x2="275" y2="255" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Server</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">ensemble de cypher suite</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Cipher cert</text><line x1="275" y1="135" x2="75" y2="135" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="163" class="messageText" style="text-anchor: middle;">Cert</text><line x1="75" y1="170" x2="275" y2="170" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="0" y="190" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="222.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Client</tspan></text></g><g><rect x="200" y="190" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="222.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Server</tspan></text></g></svg></div>
 
