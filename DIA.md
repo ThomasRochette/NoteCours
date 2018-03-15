@@ -32,7 +32,9 @@ Voir sur le site de [docker](https://www.docker.com/)
 Sous windows : windows containers reproduit des conteneurs.
 
 Verification de la version :
+```bash
 
+```
     docker version
 
 Donne la version du client et du serveur
@@ -143,5 +145,5 @@ association explicite :
 
 Docker compose s'utilise avec python.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNjY3MDNdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjEwODI0N119
 -->
