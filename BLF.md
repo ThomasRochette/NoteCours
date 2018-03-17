@@ -43,8 +43,8 @@ $$
 Avec 38 octets de bourrage et on aura 31 celules ATM
 
 La couche ATM ajoute 5 O d'en-tête par cellules soit en tout
-31 x (48+5) = 1643 Octets
-Débit au niveau IP (1410/1643) x 768 =  676 kb/s
+$31 * (48+5) = 1643 Octets$
+Débit au niveau IP $(1410/1643) x 768 =  676 kb/s$
 
 #### Question 4
 
@@ -59,5 +59,5 @@ Sur l'Interface Utilisateur :
 * Tag de VLAN
 * Circuits virtuels
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgxODI4NzNdfQ==
+eyJoaXN0b3J5IjpbLTEzNjQ0NzkzNDddfQ==
 -->
