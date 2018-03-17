@@ -36,7 +36,9 @@ Pysique|DSL
 
 Sans bourrage :
 
+$$
 AAL5 : 1410 Octets IP + 2 Octets PPP + 6 Octets PPPOE + 14 Octets Ethernet + 10 Octets RFC 2684 + 8 Octets AAL5 = 1450 Octets = 30 x 48 + 10 Octets
+$$
 
 Avec 38 octets de bourrage et on aura 31 celules ATM
 
@@ -57,5 +59,5 @@ Sur l'Interface Utilisateur :
 * Tag de VLAN
 * Circuits virtuels
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIzNjExMTNdfQ==
+eyJoaXN0b3J5IjpbLTEyMTgxODI4NzNdfQ==
 -->
