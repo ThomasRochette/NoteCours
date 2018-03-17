@@ -46,7 +46,7 @@ L'authentification est régulierement déclanché par le réseau.
 
 #### Limites
 
-* Les transmission sont seulement crypté entre MS et bits
+* Les transmission sont seulement crypté entre MS et BTS 
 * L'authentification est faite dans un seul sens (BTS malvaillante)
 * GSM n'assure pas l'intégrité des messages
 * Les algorithmes de chiffrement (A5/1 et A5/2) sont faibles brute force de 2^64 facile avec les moyens d'aujourd'hui (permet d'avoir la clé de session uniquement)
@@ -58,5 +58,5 @@ L'authentification est régulierement déclanché par le réseau.
 * Chiffrement
 * Meilleur algorithme pour la confidentialité et l'intégrité
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MDAyOTg4XX0=
+eyJoaXN0b3J5IjpbNTg4NDg2NDM3XX0=
 -->
