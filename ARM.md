@@ -130,7 +130,17 @@ D --> B
 Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS BEARER CONTEXT ACCEPT le numéro de bearer est 5 le type est Non-GBR et le type de QoS est QCI6
 
 #### Question 2.1 :
-
+```mermaid
+sequenceDiagram
+UE ->> Source eNB: Measurment
+eNB ->> UE: RRC Connection Setup
+UE ->> eNB: RRC Connection Setup Complete
+eNB ->> MME: Initial UE Message
+MME ->> eNB: Initial Context Setup Request
+eNB ->> UE: RRC Connection Reconfigration 
+UE ->> eNB: RRC Connection Reconfiguration Complete
+eNB ->> MME: Initial Context Setup Response
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQwNjgzOTVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTM5Njc1NzNdfQ==
 -->
