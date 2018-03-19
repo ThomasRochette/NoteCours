@@ -140,8 +140,8 @@ Target eNB ->> Source eNB: Handover Response
 Source eNB ->> UE: RRC Reconfig (Handover Command)
 UE -> UE: Detach from old cell, Sychro with new cell
 UE ->> Target eNB: RRC Reconfig
-Target eNB ->> UE: Initial Context Setup Response
+Target eNB -->> UE: SBR an RB re-establishment
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MDI0MzYxXX0=
+eyJoaXN0b3J5IjpbNzU1MzkyMzc0XX0=
 -->
