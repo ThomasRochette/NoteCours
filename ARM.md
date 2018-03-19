@@ -79,6 +79,7 @@ Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
 
 ```mermaid
 sequenceDiagram
+USIM -> UE: 
 UE ->> MME: 
 MME ->> HSS: Authentication info (IMSI)
 HSS ->> HSS: Generate EPS AV incl SN id
@@ -89,19 +90,8 @@ USIM ->> USIM: Verify AUTN, Compute RES, Compute CK and IK
 USIM ->> UE: 
 UE ->> MME: Authentication response (RES)
 MME ->> MME: Compare RES and XRES
-UE ->> UE: Compute Kasme incl  
-
-MME ->> UE: EMM authentication and diphering req
-UE ->> MME: EMM authentication and diphering response (RES)
-MME ->> UE: EMM identity req
-UE ->> MME: EMM identity response (IMEI)
-MME ->> EIR: Check IMEI
-EIR ->> MME: Check IMEI ACK
-MME ->> HSS: Update location
-HSS ->> MME: Insert subscriber data
-Server ->> Client: Cipher cert
-Client ->> Server: Cert
+UE ->> UE: Compute Kasme incl SN id
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTQ2MzQzMl19
+eyJoaXN0b3J5IjpbMTc3NTg2MDk2NF19
 -->
