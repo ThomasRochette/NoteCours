@@ -137,11 +137,11 @@ Source eNB -> Source eNB: Handover Decision
 Source eNB ->> Target eNB: Handover Request
 Target eNB -> Target eNB: Admission Control
 Target eNB ->> Source eNB: Handover Response
-Source eNB ->> UE: Initial Context Setup Request
+Source eNB ->> UE: RRC Reconfig
 eNB ->> UE: RRC Connection Reconfigration 
 UE ->> eNB: RRC Connection Reconfiguration Complete
 eNB ->> MME: Initial Context Setup Response
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDIyNTYwMV19
+eyJoaXN0b3J5IjpbMTQ4OTY1NTY3Ml19
 -->
