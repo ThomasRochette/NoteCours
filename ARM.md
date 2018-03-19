@@ -146,7 +146,7 @@ Target eNB -->> UE: SBR an RB re-establishment
 Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handover.
 
 #### Question 3.1 :
-100M/B
+100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MzMyMTMzXX0=
+eyJoaXN0b3J5IjpbMTY2ODY2OTI3MV19
 -->
