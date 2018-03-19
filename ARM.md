@@ -115,7 +115,7 @@ L'UE peut utiliser 2 identifiant pour le message RRC CONNECTION REQUEST, soit le
 #### Question 1.9 :
 Avec le MME on utilise l'IMSI au lieu du TMSI.
 
-#### Question 1.10:
+#### Question 1.10 :
 ```mermaid
 graph LR
 A(Idle) --> B(Connected)
@@ -126,10 +126,9 @@ D --> A
 D --> B
 ```
 
-
-
-
+#### Question 1.11-1.12 :
+Il faut un bearer
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTY5NjAyN119
+eyJoaXN0b3J5IjpbLTE5MDgyMzM3NzJdfQ==
 -->
