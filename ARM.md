@@ -103,9 +103,11 @@ L'UE choisi l'antenne à laquelle il s'associe car c'est un scénario ou l'UE ar
 sequenceDiagram
 UE ->> eNB: RRC Connection Request
 eNB ->> UE: RRC Connection Setup
-UE ->> eNB: RRC Connection S
+UE ->> eNB: RRC Connection Setup Complete
+eNB ->> MME: Initial UE Message
+MME ->> eNB: Initial Context Setup Request
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDMzNzEzNDldfQ==
+eyJoaXN0b3J5IjpbMTUzOTMyMzk4XX0=
 -->
