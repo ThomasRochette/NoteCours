@@ -74,6 +74,15 @@ Les algorithme supportés sont listés dans le message ATTACH_REQUEST, les algor
 
 #### Question 1.2 :
 Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
+
+#### Question 1.3 :
+
+```mermaid
+sequenceDiagram
+UE ->> MME: Attach request
+Server ->> Client: Cipher cert
+Client ->> Server: Cert
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg4NDE3OTNdfQ==
+eyJoaXN0b3J5IjpbLTEzNDAyMDI0MzddfQ==
 -->
