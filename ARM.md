@@ -114,7 +114,7 @@ eNB ->> MME: Initial Context Setup Response
 #### Question 1.8 :
 L'UE peut utiliser 2 identifiant pour le message RRC CONNECTION REQUEST, soit le TMSI s'il est toujours dans la même zone de localisation puisque les TMSI sont unique par zone de localisation, soit il utilise un nombre aléatoire sur 40 bits (contre 32 pour le TMSI) avant d'avoir un nouveau TMSI sur la zone de localisation.
 
-
+#### Question 1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDE4NjkxMV19
+eyJoaXN0b3J5IjpbLTQwMDY3OTA4XX0=
 -->
