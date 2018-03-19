@@ -81,8 +81,11 @@ Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
 sequenceDiagram
 Sim ->> BTS: I(T)MSI
 BTS ->> BSC: I(T)MSI
+BSC ->> MSC/VLR: I(T)MSI
+MSC/VLR ->> AUC/HLR: I(T)MSI
+
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNzE2ODExXX0=
+eyJoaXN0b3J5IjpbLTEwNDY2NDI0OTFdfQ==
 -->
