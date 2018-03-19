@@ -142,6 +142,8 @@ UE -> UE: Detach from old cell, Sychro with new cell
 UE ->> Target eNB: RRC Reconfig
 Target eNB -->> UE: SBR an RB re-establishment
 ```
+#### Question 2.2 :
+Pour passer de LTE à UMTS lors d'appel correspond à du fall back
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1MzkyMzc0XX0=
+eyJoaXN0b3J5IjpbLTU5MzI2OTU4OF19
 -->
