@@ -87,7 +87,9 @@ MME ->> UE: Authentication request (RAND, AUTN)
 UE ->> USIM: 
 USIM ->> USIM: Verify AUTN, Compute RES, Compute CK and IK
 USIM ->> UE: 
-UE ->> MME: Authentication response (RES) 
+UE ->> MME: Authentication response (RES)
+MME ->> MME: Compare RES and XRES
+UE ->> UE: Compute Kasme incl  
 
 MME ->> UE: EMM authentication and diphering req
 UE ->> MME: EMM authentication and diphering response (RES)
@@ -101,5 +103,5 @@ Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzYyODQ2OTZdfQ==
+eyJoaXN0b3J5IjpbLTcxMTQ2MzQzMl19
 -->
