@@ -86,10 +86,13 @@ MME ->> UE: EMM authentication and diphering req
 UE ->> MME: EMM authentication and diphering response (RES)
 MME ->> UE: EMM identity req
 UE ->> MME: EMM identity response (IMEI)
-MME ->> EIR: 
+MME ->> EIR: Check IMEI
+EIR ->> MME: Check IMEI ACK
+MME ->> HSS: Update location
+HSS ->> MME: Insert su
 Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NDM1MDQwXX0=
+eyJoaXN0b3J5IjpbLTczNTk0NDE3Ml19
 -->
