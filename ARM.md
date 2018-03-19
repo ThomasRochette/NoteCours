@@ -82,6 +82,7 @@ sequenceDiagram
 UE ->> MME: 
 MME ->> HSS: Send authentication info (IMSI)
 HSS ->> MME: Send authentication info ACK (vector)
+HSS ->> HSS: Generate EPS A
 MME ->> UE: EMM authentication and diphering req
 UE ->> MME: EMM authentication and diphering response (RES)
 MME ->> UE: EMM identity req
@@ -94,5 +95,5 @@ Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDU1NTAzMzVdfQ==
+eyJoaXN0b3J5IjpbLTU1MjI3MjI1MF19
 -->
