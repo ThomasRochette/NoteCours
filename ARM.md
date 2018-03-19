@@ -118,8 +118,8 @@ L'UE peut utiliser 2 identifiant pour le message RRC CONNECTION REQUEST, soit le
 Avec le MME on utilise l'IMSI au lieu du TMSI.
 
 #### Question 1.10:
-2 Etats principaux Idle et connected l'état connected est diviser en 2 sous états non visibles
+2 Etats principaux Idle et connected.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NTE0Njk2XX0=
+eyJoaXN0b3J5IjpbLTE0OTI3MjIxNjZdfQ==
 -->
