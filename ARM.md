@@ -57,6 +57,13 @@ L'authentification est régulierement déclanché par le réseau.
 * Intégrité des messages
 * Chiffrement
 * Meilleur algorithme pour la confidentialité et l'intégrité
+
+---
+
+## TP LTE
+
+---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4NDg2NDM3XX0=
+eyJoaXN0b3J5IjpbMTgzMzQ2MTg1Nl19
 -->
