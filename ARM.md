@@ -68,7 +68,9 @@ Les protocoles sont listés dans le message ATTACH_REQUEST, les algorithmes sont
 * EEA0 (encryption)
 * 128-EEA1 (encryption)
 * 128-EEA2 (encryption)
-* 
+* EIA0 (integrity)
+* 128-EIA1 (integrity)
+* 128-EIA2 (integrity)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgwNjgxMjddfQ==
+eyJoaXN0b3J5IjpbOTU4MjgzMDA1XX0=
 -->
