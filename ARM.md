@@ -140,7 +140,7 @@ Target eNB ->> Source eNB: Handover Response
 Source eNB ->> UE: RRC Reconfig (Handover Command)
 UE -> UE: Detach from old cell, Sychro with new cell
 UE ->> Target eNB: RRC Reconfig
-Target eNB -->> UE: SBR an RB re-establishment
+Target eNB -->> UE: SBR and RB re-establishment
 ```
 #### Question 2.2 :
 Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handover.
@@ -148,5 +148,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODY2OTI3MV19
+eyJoaXN0b3J5IjpbLTE0MzY2NzI3NjddfQ==
 -->
