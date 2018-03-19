@@ -143,7 +143,8 @@ UE ->> Target eNB: RRC Reconfig
 Target eNB -->> UE: SBR an RB re-establishment
 ```
 #### Question 2.2 :
-Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handover
+Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handover.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1OTI2OTIyXX0=
+eyJoaXN0b3J5IjpbOTU2NDYxMTMwXX0=
 -->
