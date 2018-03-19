@@ -120,10 +120,13 @@ Avec le MME on utilise l'IMSI au lieu du TMSI.
 #### Question 1.10:
 ```mermaid
 graph LR
-Idle --> Connected
+A(Idle) --> B(Connected)
+B --> C(Short DRX)
+C --> B
+C --
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk3MTM1NDZdfQ==
+eyJoaXN0b3J5IjpbMTg3NDg1NDY4OV19
 -->
