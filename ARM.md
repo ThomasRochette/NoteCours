@@ -126,11 +126,9 @@ D --> A
 D --> B
 ```
 
-#### Question 1.11-1.12 :
-Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS BEARER CONTEXT ACCEPT
-
-
+#### Question 1.11-1.13 :
+Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS BEARER CONTEXT ACCEPT le numéro de bearer est 5 type de QoS : QCI6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk1NTc4NDJdfQ==
+eyJoaXN0b3J5IjpbLTg3MTQzNDE4Nl19
 -->
