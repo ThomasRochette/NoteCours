@@ -80,9 +80,10 @@ Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
 ```mermaid
 sequenceDiagram
 UE ->> MME: 
-MME ->> HSS: Send authentication info (IMSI)
-HSS ->> MME: Send authentication info ACK (vector)
-HSS ->> HSS: Generate EPS A
+MME ->> HSS: Authentication info (IMSI)
+HSS ->> HSS: Generate EPS AV incl SN id
+HSS ->> MME:  
+
 MME ->> UE: EMM authentication and diphering req
 UE ->> MME: EMM authentication and diphering response (RES)
 MME ->> UE: EMM identity req
@@ -95,5 +96,5 @@ Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjI3MjI1MF19
+eyJoaXN0b3J5IjpbLTIwNjE3OTE1NTldfQ==
 -->
