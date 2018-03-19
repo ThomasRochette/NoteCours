@@ -97,9 +97,25 @@ UE ->> UE: Compute Kasme incl SN id
 #### Question 1.4-1.6 :
 L'UE choisi l'antenne à laquelle il s'associe car c'est un scénario ou l'UE arrive dans le réseau (démarrage), il choisi l'antenne qui lui fournis le meilleur signal.
 
-#### 1.7:
+#### Question 1.7:
 
+```mermaid
+sequenceDiagram
+participant USIM
+ 
+UE ->> MME: (IMSI)
+MME ->> HSS: Authentication info (IMSI)
+HSS ->> HSS: Generate EPS AV incl SN id
+HSS ->> MME: Authentication info answer (RAND, XRES, Kasme, AUTN)
+MME ->> UE: Authentication request (RAND, AUTN)
+UE ->> USIM: 
+USIM ->> USIM: Verify AUTN, Compute RES, Compute CK and IK
+USIM ->> UE: 
+UE ->> MME: Authentication response (RES)
+MME ->> MME: Compare RES and XRES
+UE ->> UE: Compute Kasme incl SN id
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTg3NTk0OF19
+eyJoaXN0b3J5IjpbMTMzMjc3ODEzNF19
 -->
