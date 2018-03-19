@@ -120,6 +120,7 @@ Avec le MME on utilise l'IMSI au lieu du TMSI.
 #### Question 1.10:
 2 Etats principaux Idle et connected.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI3MjIxNjZdfQ==
+eyJoaXN0b3J5IjpbMjA0NjY2MTA0OF19
 -->
