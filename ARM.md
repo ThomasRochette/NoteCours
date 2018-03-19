@@ -82,7 +82,7 @@ sequenceDiagram
 UE ->> MME: 
 MME ->> HSS: Authentication info (IMSI)
 HSS ->> HSS: Generate EPS AV incl SN id
-HSS ->> MME:  
+HSS ->> MME: Authentication info answer (RAND, XRES,~ 
 
 MME ->> UE: EMM authentication and diphering req
 UE ->> MME: EMM authentication and diphering response (RES)
@@ -96,5 +96,5 @@ Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE3OTE1NTldfQ==
+eyJoaXN0b3J5IjpbLTE2NTAwMDMyMDRdfQ==
 -->
