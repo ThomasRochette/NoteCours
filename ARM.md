@@ -81,10 +81,12 @@ Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
 sequenceDiagram
 UE ->> MME: EMM Attach request
 MME ->> HSS: Send authentication info (IMSI)
-HSS ->>
+HSS ->> MME: Send authentication info ACK (vector)
+MME ->> EMM authentication and diphering req
+U
 Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQxMjI5NDJdfQ==
+eyJoaXN0b3J5IjpbLTg2NDU1ODEwMV19
 -->
