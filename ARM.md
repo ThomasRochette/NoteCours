@@ -138,10 +138,10 @@ Source eNB ->> Target eNB: Handover Request
 Target eNB -> Target eNB: Admission Control
 Target eNB ->> Source eNB: Handover Response
 Source eNB ->> UE: RRC Reconfig (Handover Command)
-UE -> UE: Detach 
-UE ->> eNB: RRC Connection Reconfiguration Complete
-eNB ->> MME: Initial Context Setup Response
+UE -> UE: Detach from old cell, Sychro with new cell
+UE ->> Target eNB: RRC Reconfig
+Target eNB ->> UE: Initial Context Setup Response
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDE0Njk4Ml19
+eyJoaXN0b3J5IjpbMzQ1MDI0MzYxXX0=
 -->
