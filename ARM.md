@@ -97,7 +97,7 @@ UE ->> UE: Compute Kasme incl SN id
 #### Question 1.4-1.6 :
 L'UE choisi l'antenne à laquelle il s'associe car c'est un scénario ou l'UE arrive dans le réseau (démarrage), il choisi l'antenne qui lui fournis le meilleur signal.
 
-#### Question 1.7:
+#### Question 1.7 :
 
 ```mermaid
 sequenceDiagram
@@ -111,6 +111,8 @@ UE ->> eNB: RRC Connection Reconfiguration Complete
 eNB ->> MME: Initial Context Setup Response
 ```
 
+#### Question 1.8 :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3MDQ5ODE0XX0=
+eyJoaXN0b3J5IjpbMTM4NDU5NzM5OV19
 -->
