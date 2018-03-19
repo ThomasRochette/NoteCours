@@ -84,8 +84,7 @@ BTS ->> BSC: I(T)MSI
 BSC ->> MSC/VLR: I(T)MSI
 MSC/VLR ->> AUC/HLR: I(T)MSI
 
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY2NDI0OTFdfQ==
+eyJoaXN0b3J5IjpbLTE2NDc5MDg0OTNdfQ==
 -->
