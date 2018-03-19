@@ -63,7 +63,8 @@ L'authentification est régulierement déclanché par le réseau.
 ## TP LTE
 
 ---
-
+#### Question 1 :
+Les protocoles sont listés dans le message ATTACH_REQUEST les 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzQ2MTg1Nl19
+eyJoaXN0b3J5IjpbLTExMjQ3NjE0ODhdfQ==
 -->
