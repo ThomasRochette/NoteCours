@@ -134,13 +134,13 @@ Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS 
 sequenceDiagram
 UE -> Source eNB: Measurment
 Source eNB ->> Source eNB: Handover Decision
-UE ->> eNB: RRC Connection Setup Complete
-eNB ->> MME: Initial UE Message
+Source eNB ->> Target eNB: Handover Request
+Target eNB ->> Target eNB: Admission Control
 MME ->> eNB: Initial Context Setup Request
 eNB ->> UE: RRC Connection Reconfigration 
 UE ->> eNB: RRC Connection Reconfiguration Complete
 eNB ->> MME: Initial Context Setup Response
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODc3NDA1NV19
+eyJoaXN0b3J5IjpbLTIxNDA0NDI4MzRdfQ==
 -->
