@@ -133,15 +133,15 @@ Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS 
 ```mermaid
 sequenceDiagram
 UE -> Source eNB: Measurment
-Source eNB ->> Source eNB: Handover Decision
+Source eNB -> Source eNB: Handover Decision
 Source eNB ->> Target eNB: Handover Request
-Target eNB ->> Target eNB: Admission Control
-Target eNB ->> Source eNB: Hand
-MME ->> eNB: Initial Context Setup Request
+Target eNB -> Target eNB: Admission Control
+Target eNB ->> Source eNB: Handover Response
+Source eNB ->> UE: Initial Context Setup Request
 eNB ->> UE: RRC Connection Reconfigration 
 UE ->> eNB: RRC Connection Reconfiguration Complete
 eNB ->> MME: Initial Context Setup Response
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODEzOTM4NjJdfQ==
+eyJoaXN0b3J5IjpbMjA2MDIyNTYwMV19
 -->
