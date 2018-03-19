@@ -93,8 +93,8 @@ MME ->> MME: Compare RES and XRES
 UE ->> UE: Compute Kasme incl SN id
 ```
 
- #### Question 1.4 :
- 
+#### Question 1.4 :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzI2MTYyOF19
+eyJoaXN0b3J5IjpbLTIwMzA1MjcwMjJdfQ==
 -->
