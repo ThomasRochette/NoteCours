@@ -79,7 +79,8 @@ Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
 
 ```mermaid
 sequenceDiagram
-USIM -> UE: 
+participant USIM
+ 
 UE ->> MME: (IMSI)
 MME ->> HSS: Authentication info (IMSI)
 HSS ->> HSS: Generate EPS AV incl SN id
@@ -100,5 +101,5 @@ L'UE choisi l'antenne à laquelle il s'associe car c'est un scénario ou l'UE ar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzczNzY1MzZdfQ==
+eyJoaXN0b3J5IjpbMTMxMTg3NTk0OF19
 -->
