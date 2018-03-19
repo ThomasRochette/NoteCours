@@ -112,7 +112,7 @@ eNB ->> MME: Initial Context Setup Response
 ```
 
 #### Question 1.8 :
-
+L'UE peut utiliser 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDU5NzM5OV19
+eyJoaXN0b3J5IjpbOTE0NDAwNDY5XX0=
 -->
