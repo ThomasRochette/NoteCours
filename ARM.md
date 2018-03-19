@@ -127,8 +127,8 @@ D --> B
 ```
 
 #### Question 1.11-1.12 :
-Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS BEARER CONTEXT REQUEST
+Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS BEARER CONTEXT ACCEPT
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjYyNzE4NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1NjU5NTQ3MzRdfQ==
 -->
