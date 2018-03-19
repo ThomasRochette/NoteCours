@@ -79,9 +79,10 @@ Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
 
 ```mermaid
 sequenceDiagram
-Sim
+Sim ->> BTS: I(T)MSI
+BTS ->> BSC: I(T)MSI
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODg3NTE3NV19
+eyJoaXN0b3J5IjpbMjMxNzE2ODExXX0=
 -->
