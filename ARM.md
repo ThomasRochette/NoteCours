@@ -132,8 +132,8 @@ Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS 
 #### Question 2.1 :
 ```mermaid
 sequenceDiagram
-UE ->> Source eNB: Measurment
-eNB ->> UE: RRC Connection Setup
+UE -> Source eNB: Measurment
+Source eNB ->> Source eNB: Handover Decision
 UE ->> eNB: RRC Connection Setup Complete
 eNB ->> MME: Initial UE Message
 MME ->> eNB: Initial Context Setup Request
@@ -142,5 +142,5 @@ UE ->> eNB: RRC Connection Reconfiguration Complete
 eNB ->> MME: Initial Context Setup Response
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM5Njc1NzNdfQ==
+eyJoaXN0b3J5IjpbMTQ3ODc3NDA1NV19
 -->
