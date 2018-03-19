@@ -83,7 +83,8 @@ UE ->> MME:
 MME ->> HSS: Authentication info (IMSI)
 HSS ->> HSS: Generate EPS AV incl SN id
 HSS ->> MME: Authentication info answer (RAND, XRES, Kasme, AUTN)
-MME ->> UE: Authentication request (RAND,  
+MME ->> UE: Authentication request (RAND, AUTN)
+UE ->> USIM:  
 
 MME ->> UE: EMM authentication and diphering req
 UE ->> MME: EMM authentication and diphering response (RES)
@@ -97,5 +98,5 @@ Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDY5OTAyXX0=
+eyJoaXN0b3J5IjpbLTU5NjI3MjY2MF19
 -->
