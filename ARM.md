@@ -94,8 +94,8 @@ UE ->> UE: Compute Kasme incl SN id
 ```
 
 #### Question 1.4-1.6 :
-L'UE choisi l'antenne à laquelle il s'attache
+L'UE choisi l'antenne à laquelle il s'associe car c'est un scénario ou l'UE arrive dans le réseau (démarrage)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMDk0NTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MTk5NTMwOTddfQ==
 -->
