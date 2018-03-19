@@ -101,21 +101,11 @@ L'UE choisi l'antenne à laquelle il s'associe car c'est un scénario ou l'UE ar
 
 ```mermaid
 sequenceDiagram
-participant USIM
- 
-UE ->> MME: (IMSI)
-MME ->> HSS: Authentication info (IMSI)
-HSS ->> HSS: Generate EPS AV incl SN id
-HSS ->> MME: Authentication info answer (RAND, XRES, Kasme, AUTN)
-MME ->> UE: Authentication request (RAND, AUTN)
-UE ->> USIM: 
-USIM ->> USIM: Verify AUTN, Compute RES, Compute CK and IK
-USIM ->> UE: 
-UE ->> MME: Authentication response (RES)
-MME ->> MME: Compare RES and XRES
-UE ->> UE: Compute Kasme incl SN id
+UE ->> eNB: RRC Connection Request
+eNB ->> UE: RRC Connection Setup
+UE ->> eNB: RRC Connection S
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjc3ODEzNF19
+eyJoaXN0b3J5IjpbLTE5NDMzNzEzNDldfQ==
 -->
