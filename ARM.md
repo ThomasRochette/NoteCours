@@ -84,10 +84,12 @@ MME ->> HSS: Send authentication info (IMSI)
 HSS ->> MME: Send authentication info ACK (vector)
 MME ->> UE: EMM authentication and diphering req
 UE ->> MME: EMM authentication and diphering response (RES)
-MME ->> 
+MME ->> UE: EMM identity req
+UE ->> MME: EMM identity response (IMEI)
+MME ->> EIR: 
 Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTQxMjk0XX0=
+eyJoaXN0b3J5IjpbNzk0NDM1MDQwXX0=
 -->
