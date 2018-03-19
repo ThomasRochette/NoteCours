@@ -89,10 +89,10 @@ UE ->> MME: EMM identity response (IMEI)
 MME ->> EIR: Check IMEI
 EIR ->> MME: Check IMEI ACK
 MME ->> HSS: Update location
-HSS ->> MME: Insert su
+HSS ->> MME: Insert subscriber data
 Server ->> Client: Cipher cert
 Client ->> Server: Cert
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTk0NDE3Ml19
+eyJoaXN0b3J5IjpbLTE0ODUzMDkxMzRdfQ==
 -->
