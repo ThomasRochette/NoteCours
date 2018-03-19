@@ -64,7 +64,7 @@ L'authentification est régulierement déclanché par le réseau.
 
 ---
 #### Question 1.1 :
-Les protocoles sont listés dans le message ATTACH_REQUEST, les algorithmes sont :
+Les algorithme supportés sont listés dans le message ATTACH_REQUEST, les algorithmes sont :
 * EEA0 (encryption)
 * 128-EEA1 (encryption)
 * 128-EEA2 (encryption)
@@ -72,7 +72,8 @@ Les protocoles sont listés dans le message ATTACH_REQUEST, les algorithmes sont
 * 128-EIA1 (integrity)
 * 128-EIA2 (integrity)
 
-#### Question 1.2
+#### Question 1.2 :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTc5Mjk2M119
+eyJoaXN0b3J5IjpbMTAwNDI0MDE5Ml19
 -->
