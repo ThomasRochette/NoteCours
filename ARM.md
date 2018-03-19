@@ -127,8 +127,8 @@ D --> B
 ```
 
 #### Question 1.11-1.13 :
-Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS BEARER CONTEXT ACCEPT le numéro de bearer est 5 type de QoS : QCI6
+Il faut un bearer, ces ressources sont allouées grâce au ACTIVATE DEFAULT EPS BEARER CONTEXT ACCEPT le numéro de bearer est 5 le type est Non-GBR et le type de QoS : QCI6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTQzNDE4Nl19
+eyJoaXN0b3J5IjpbMTc4OTcwNTc5MF19
 -->
