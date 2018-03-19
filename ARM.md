@@ -123,10 +123,13 @@ graph LR
 A(Idle) --> B(Connected)
 B --> C(Short DRX)
 C --> B
-C --
+C --> D(Long DRX)
+D --> A
+D --> B
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDg1NDY4OV19
+eyJoaXN0b3J5IjpbMjEyMzYwNTQ2N119
 -->
