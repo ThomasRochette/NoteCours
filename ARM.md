@@ -63,7 +63,7 @@ L'authentification est régulierement déclanché par le réseau.
 ## TP LTE
 
 ---
-#### Question 1 :
+#### Question 1.1 :
 Les protocoles sont listés dans le message ATTACH_REQUEST, les algorithmes sont :
 * EEA0 (encryption)
 * 128-EEA1 (encryption)
@@ -71,6 +71,8 @@ Les protocoles sont listés dans le message ATTACH_REQUEST, les algorithmes sont
 * EIA0 (integrity)
 * 128-EIA1 (integrity)
 * 128-EIA2 (integrity)
+
+#### Question 1.2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MjgzMDA1XX0=
+eyJoaXN0b3J5IjpbMTA4OTc5Mjk2M119
 -->
