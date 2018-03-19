@@ -107,9 +107,10 @@ UE ->> eNB: RRC Connection Setup Complete
 eNB ->> MME: Initial UE Message
 MME ->> eNB: Initial Context Setup Request
 eNB ->> UE: RRC Connection Reconfigration 
-UE ->> eNB: RRC 
+UE ->> eNB: RRC Connection Reconfiguration Complete
+eNB ->> MME: Initial Context Setup Response
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDkxOTIwMl19
+eyJoaXN0b3J5IjpbNDU3MDQ5ODE0XX0=
 -->
