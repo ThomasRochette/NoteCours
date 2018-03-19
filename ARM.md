@@ -73,7 +73,7 @@ Les algorithme supportés sont listés dans le message ATTACH_REQUEST, les algor
 * 128-EIA2 (integrity)
 
 #### Question 1.2 :
-
+Les vecteurs RAND et AUTN sont transmis avec le message AUTHENTICATION_REQUEST
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDI0MDE5Ml19
+eyJoaXN0b3J5IjpbLTEwMjg4NDE3OTNdfQ==
 -->
