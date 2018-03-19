@@ -127,8 +127,8 @@ D --> B
 ```
 
 #### Question 1.11-1.12 :
-Il faut un bearer
+Il faut un bearer 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDgyMzM3NzJdfQ==
+eyJoaXN0b3J5IjpbMjE0MzE1MTIyOF19
 -->
