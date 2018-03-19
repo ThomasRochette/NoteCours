@@ -94,8 +94,8 @@ UE ->> UE: Compute Kasme incl SN id
 ```
 
 #### Question 1.4-1.6 :
-
+L'UE choisi l'antenne à laquelle il s'attache
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Mzk0OTU4OF19
+eyJoaXN0b3J5IjpbODYzMDk0NTZdfQ==
 -->
