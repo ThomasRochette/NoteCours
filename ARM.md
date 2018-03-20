@@ -147,8 +147,8 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 
 #### Question 3.1 :
 100Mbps
-$\\Gamma(n) = (n-1)!\\quad\\forall
-n\\in\\mathbb N$
+$\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTU0Mjc4Ml19
+eyJoaXN0b3J5IjpbMjgwMjczODU0XX0=
 -->
