@@ -67,6 +67,7 @@ L'authentification est régulierement déclanché par le réseau.
 Sur le réseau d'accès, il n'y a plus qu'un seul équipement, l'eNodeB. Les eNB sont connectés au cœur de réseau via les S1, le contrôle est envoyer au MME, les paquets ip sont envoyer au S-GW( serving gateway). Les eNB sont connectés entre elles via des liens X2, ces liens servent à gérer le handover.
 
 
+
 ### eNodeB
 Possède les fonctionnalités classique du réseau d'accès :
 * La gestion des ressources radio
@@ -171,5 +172,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg5ODMwODFdfQ==
+eyJoaXN0b3J5IjpbNjUwODA0ODA1XX0=
 -->
