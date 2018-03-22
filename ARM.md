@@ -80,10 +80,11 @@ Possède les fonctionnalités classique du réseau d'accès :
 * Positionnement, avec le timing advance de l'utilisateur on connais la distance de l'utilisateur par rapport à une station de base, avec 3 timing advance on connais la position de l'utilisateur.
 
 ### Coeur de réseau
-#### Packet Gateway
+![enter image description here](https://lh3.googleusercontent.com/_TywqtzUSIDowRaShPnm2TrcfyhgFCO3wgGphnQM6YMIgk643G3qhBydEjU5Ct0Yr-KnZwYC1eM-)
+#### Packet Gateway (PGW)
 2 fonctionnalités importantes :
 * Fin du tunnel IP, le bearer est établi entre le mobile et le packet gateway
-* Fait tourner un serveur DHCP pour donner les IP aux ut
+* Fait tourner un serveur DHCP pour donner les IP aux utilisateurs
 
 
 ---
@@ -175,5 +176,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzcyNTE3NF19
+eyJoaXN0b3J5IjpbMTYxMzQ2ODY5XX0=
 -->
