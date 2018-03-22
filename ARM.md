@@ -103,7 +103,9 @@ Coordonne le processus de localisation par triangulation. Choisit les ressource 
 1. Connection RRC : UE - eNB
 2. Choix du MME (par l'eNB) et mise en place du bearer de signalisation
 3. Authentification et attachement avec le HSS
-4. Sélection P-GW et S-GW g
+4. Sélection P-GW et S-GW grace au MME
+5. Mise en place du bearer et allocation de l'adresse IP par la P-GW
+6. Reconfiguration du RRC pour choisir 
 
 ---
 ---
@@ -194,5 +196,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNzcwMjRdfQ==
+eyJoaXN0b3J5IjpbLTE3NDc1NzcwMDVdfQ==
 -->
