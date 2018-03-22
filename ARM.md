@@ -94,7 +94,7 @@ C'est Ici que l'opérateur peut observer nos communications. Lors du handover, l
 #### Mobility Managment Entity (MME)
 Sert à l'authentification, gère les zone de localisation, fait le paging, choisit le S-GW/P-GW, gère les bearer
 #### Home Subscriber Server (HSS)
-Stock les don
+Stock les données utilisateurs (abonnement, applications payantes, etc)
 
 
 ---
@@ -186,5 +186,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTYwMTUyOF19
+eyJoaXN0b3J5IjpbLTIyMzMxODFdfQ==
 -->
