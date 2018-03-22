@@ -108,6 +108,7 @@ Coordonne le processus de localisation par triangulation. Choisit les ressource 
 6. Reconfiguration du RRC 
 ```mermaid
 sequenceDiagram
+UE -> eNB: Connection RRC
 
 ```
 
@@ -201,5 +202,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDEyNDkyNV19
+eyJoaXN0b3J5IjpbLTE4ODM5MzIxMzhdfQ==
 -->
