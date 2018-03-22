@@ -104,7 +104,7 @@ Etat de la facture,
 ## TP LTE
 ---
 #### Question 1.1 :
-Les algorithme supportés sont listés dans le message ATTACH_REQUEST, les algorithmes sont :
+Les algorithmes supportés sont listés dans le message ATTACH_REQUEST, les algorithmes sont :
 * EEA0 (encryption)
 * 128-EEA1 (encryption)
 * 128-EEA2 (encryption)
@@ -188,5 +188,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNTQ0Mzc0XX0=
+eyJoaXN0b3J5IjpbNjYwNDY2NTY5XX0=
 -->
