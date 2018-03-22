@@ -88,7 +88,9 @@ Possède les fonctionnalités classique du réseau d'accès :
 Il fait aussi du filtrage au niveau des paquets (débats quant au non respect de la neutralité du web). C'est le dernier équipement IP de l'opérateur, il permet de sortir vers "l’extérieur", c'est sur cet équipement qu'on place la QoS.
 #### Serving Gateway (SGW)
 2 rôles important :
-* Compte la consommation de data (Problématique sur le comptage : est ce que les en-tête sont compté dans la data, etc)
+* Compte la consommation de data (Problématique sur le comptage : est ce que les en-tête sont compté dans la data, etc).
+* 
+* C'est Ici que l'opérateur peut observer nos communications.
 
 
 ---
@@ -180,5 +182,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAwNzk4NTRdfQ==
+eyJoaXN0b3J5IjpbLTM5MzAwNDU1NV19
 -->
