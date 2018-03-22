@@ -88,7 +88,7 @@ Possède les fonctionnalités classique du réseau d'accès :
 Il fait aussi du filtrage au niveau des paquets (débats quant au non respect de la neutralité du web). C'est le dernier équipement IP de l'opérateur, il permet de sortir vers "l’extérieur", c'est sur cet équipement qu'on place la QoS.
 #### Serving Gateway (S-GW)
 2 rôles important :
-* Compte la consommation de data car le standard n'interdit pas les communications internes passant de l'utilisateur A vers l'eNB puis vers la S-GW pour retourner vers l'eNB et enfin l'utilisateur B (Problématique sur le comptage : est ce que les en-tête sont compté dans la data, etc).
+* Compte la consommation de data car le standard n'interdit pas les communications internes passant de l'utilisateur A vers l'eNB puis vers la S-GW pour retourner vers l'eNB et enfin l'utilisateur B sans passer par la P-GW (Problématique sur le comptage : est ce que les en-tête sont compté dans la data, etc).
 * Mise en file d'attente des paquets quand l'utilisateur est en mode IDLE 
 C'est Ici que l'opérateur peut observer nos communications. Lors du handover, le bearer est reconfiguré, à ce moment la QoS ne peut pas être garantie jusqu'à l'utilisateur, s'il n'y a pas de changement de S-GW on reconfigure uniquement entre l'eNB et le S-GW sinon on reconfigure tout.
 #### Mobility Managment Entity (MME)
@@ -188,5 +188,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwOTA5MzYyXX0=
+eyJoaXN0b3J5IjpbNTMyNTQ0Mzc0XX0=
 -->
