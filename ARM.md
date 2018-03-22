@@ -95,7 +95,8 @@ C'est Ici que l'opérateur peut observer nos communications. Lors du handover, l
 Sert à l'authentification, gère les zone de localisation, fait le paging, choisit le S-GW/P-GW, gère les bearer
 #### Home Subscriber Server (HSS)
 Stock les données utilisateurs (abonnement, applications payantes, roaming, etc). Mise à jour de la zone de localisation, identité du MME. Centre d'authentification.
-####
+#### Policy Control and Charging Rules Fonction (PCRF)
+Facturation, 
 
 
 ---
@@ -187,5 +188,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTQ5NTQ1MF19
+eyJoaXN0b3J5IjpbLTExNTg2MDQ2OTJdfQ==
 -->
