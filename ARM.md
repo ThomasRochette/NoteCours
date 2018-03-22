@@ -81,18 +81,18 @@ Possède les fonctionnalités classique du réseau d'accès :
 
 ### Coeur de réseau
 ![enter image description here](https://lh3.googleusercontent.com/_TywqtzUSIDowRaShPnm2TrcfyhgFCO3wgGphnQM6YMIgk643G3qhBydEjU5Ct0Yr-KnZwYC1eM-)
-#### Packet Gateway (PGW)
+#### Packet Gateway (P-GW)
 2 fonctionnalités importantes :
 * Fin du tunnel IP, le bearer est établi entre le mobile et le packet gateway
 * Fait tourner un serveur DHCP pour donner les IP aux utilisateurs
 Il fait aussi du filtrage au niveau des paquets (débats quant au non respect de la neutralité du web). C'est le dernier équipement IP de l'opérateur, il permet de sortir vers "l’extérieur", c'est sur cet équipement qu'on place la QoS.
-#### Serving Gateway (SGW)
+#### Serving Gateway (S-GW)
 2 rôles important :
 * Compte la consommation de data (Problématique sur le comptage : est ce que les en-tête sont compté dans la data, etc).
 * Mise en file d'attente des paquets quand l'utilisateur est en mode IDLE 
-C'est Ici que l'opérateur peut observer nos communications. Lors du handover, le bearer est reconfiguré, à ce moment la QoS ne peut pas être garantie jusqu'à l'utilisateur, s'il n'y a pas de changement de SGW on reconfigure uniquement entre l'eNB et le SGW sinon on reconfigure tout.
+C'est Ici que l'opérateur peut observer nos communications. Lors du handover, le bearer est reconfiguré, à ce moment la QoS ne peut pas être garantie jusqu'à l'utilisateur, s'il n'y a pas de changement de S-GW on reconfigure uniquement entre l'eNB et le S-GW sinon on reconfigure tout.
 #### Mobility Managment Entity (MME)
-Sert à l'authentification, gère les zone de localisation, 
+Sert à l'authentification, gère les zone de localisation, fait le paging, choisit le SGW/PGW, gère le
 
 
 ---
@@ -184,5 +184,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzEzODQyOF19
+eyJoaXN0b3J5IjpbODg2NzUxMzY4XX0=
 -->
