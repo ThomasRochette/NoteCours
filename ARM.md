@@ -2,9 +2,7 @@
 
 ---
 ---
-
-## Cours Sécurité des Réseaux Céllulaires
-
+## Sécurité des Réseaux Céllulaires
 ---
 
 ### Notions de base
@@ -60,11 +58,11 @@ L'authentification est régulierement déclanché par le réseau.
 
 ---
 ---
-## LTE
+## LTE (Long Term Evolution)
 ---
 ![
 ](https://lh3.googleusercontent.com/xPUjO6-KE8JmoiIOz1uNl6KceB-WDwkXW_D90Y0UfWm76FbDB_52AqQcLcK4Q7Yp7I5yFD2bAFs8 "LTE")
-Sur le réseau d'accès, il n'y a plus qu'un seul équipement, l'eNodeB. Les eNB sont connectés au cœur de réseau via les S1, le contrôle est envoyer au MME, les paquets ip sont envoyer au S-GW( serving gateway). Les eNB sont connectés entre elles via des liens X2, ces liens servent à gérer le handover.
+Sur le réseau d'accès, il n'y a plus qu'un seul équipement, l'eNodeB. Les eNB sont connectés au cœur de réseau via les S1, le contrôle est envoyé au MME, les paquets ip sont envoyer au S-GW( serving gateway). Les eNB sont connectés entre elles via des liens X2, ces liens servent à gérer le handover.
 ![enter image description here](https://lh3.googleusercontent.com/h3R4v9-L3eXe09XYHKSLJrnUumt_JxrQ0fJnCMfUModyPoX5VvULDqACaihZckNsdZcpAe9ym5ys)
 
 
@@ -205,5 +203,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY4NDgzNDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MzEzMTc0MzJdfQ==
 -->
