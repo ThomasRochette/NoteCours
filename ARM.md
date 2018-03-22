@@ -97,6 +97,7 @@ Sert à l'authentification, gère les zone de localisation, fait le paging, choi
 Stock les données utilisateurs (abonnement, applications payantes, roaming, etc). Mise à jour de la zone de localisation, identité du MME. Centre d'authentification.
 #### Policy Control and Charging Rules Fonction (PCRF)
 Etat de la facture. Donnes les droits d'accès au applications gratuite, etc.
+#### Enhanced Serving Mobile Location Center (E-S
 
 
 ---
@@ -188,5 +189,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA1NjM0Nl19
+eyJoaXN0b3J5IjpbLTIwNzQyNzYwNTldfQ==
 -->
