@@ -71,7 +71,9 @@ Possède les fonctionnalités classique du réseau d'accès :
 	* Contrôle de la mobilité
 	* Ordonnancement et allocation des ressources radio
 * Compression des en-tête
-* Sécurité, authentification auprès du MME mais le reste 
+* Sécurité, authentification auprès du MME mais le reste (chiffrement déchiffrement) se fait à l'eNB
+* Connectivité
+* 
 
 ---
 ---
@@ -162,5 +164,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMjYwNzI3XX0=
+eyJoaXN0b3J5IjpbMTE0NDQ4ODM4MF19
 -->
