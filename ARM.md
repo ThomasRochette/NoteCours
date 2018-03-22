@@ -59,7 +59,13 @@ L'authentification est régulierement déclanché par le réseau.
 * Meilleur algorithme pour la confidentialité et l'intégrité
 
 ---
+---
+## LTE
+---
 
+
+---
+---
 ## TP LTE
 
 ---
@@ -148,5 +154,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY2NzI3NjddfQ==
+eyJoaXN0b3J5IjpbMjYyMTAwMjBdfQ==
 -->
