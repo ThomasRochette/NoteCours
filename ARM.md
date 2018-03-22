@@ -83,6 +83,7 @@ Possède les fonctionnalités classique du réseau d'accès :
 #### Packet Gateway
 2 fonctionnalités importantes :
 * Fin du tunnel IP, le bearer est établi entre le mobile et le packet gateway
+* Fait tourner un serveur DHCP pour donner les IP aux ut
 
 
 ---
@@ -174,5 +175,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTg5NTI0N119
+eyJoaXN0b3J5IjpbMTAwMzcyNTE3NF19
 -->
