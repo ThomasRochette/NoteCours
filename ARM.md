@@ -67,10 +67,11 @@ Sur le réseau d'accès, il n'y a plus qu'un seul équipement, l'eNodeB. Les eNB
 ### eNodeB
 Possède les fonctionnalités classique du réseau d'accès :
 * La gestion des ressources radio
-* Contrôle d'admission
-* Contrôle de la mobilité
-* Ordonnancement et allocation des ressources radio
-*
+	* Contrôle d'admission
+	* Contrôle de la mobilité
+	* Ordonnancement et allocation des ressources radio
+* Compression des en-tête
+* 
 
 ---
 ---
@@ -161,5 +162,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzU1NzA3Ml19
+eyJoaXN0b3J5IjpbLTEzMzI4NjY1ODldfQ==
 -->
