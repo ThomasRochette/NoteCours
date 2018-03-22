@@ -77,9 +77,6 @@ Possède les fonctionnalités classique du réseau d'accès :
 * Positionnement, avec le timing advance de l'utilisateur on connais la distance de l'utilisateur par rapport à une station de base, avec 3 timing advance on connais la position de l'utilisateur.
 
 
-----------
-
-
 ---
 ---
 ## TP LTE
@@ -169,5 +166,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDA3NTkyMF19
+eyJoaXN0b3J5IjpbMjM2NjM0NDI2XX0=
 -->
