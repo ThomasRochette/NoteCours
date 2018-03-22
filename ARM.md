@@ -110,8 +110,8 @@ Coordonne le processus de localisation par triangulation. Choisit les ressource 
 sequenceDiagram
 UE -> eNB: Connection RRC
 eNB -> MME: Choix du MME et mise en place du bearer de signalisation
-MME -> HSS: Authentification 
-
+MME -> HSS: Authentification et attachement
+MME -> SGW/PGW: Sélection
 ```
 
 
@@ -204,5 +204,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU1NjgwNDZdfQ==
+eyJoaXN0b3J5IjpbLTIxNzIwNjFdfQ==
 -->
