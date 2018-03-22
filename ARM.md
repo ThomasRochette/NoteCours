@@ -65,7 +65,7 @@ L'authentification est régulierement déclanché par le réseau.
 ![
 ](https://lh3.googleusercontent.com/xPUjO6-KE8JmoiIOz1uNl6KceB-WDwkXW_D90Y0UfWm76FbDB_52AqQcLcK4Q7Yp7I5yFD2bAFs8 "LTE")
 Sur le réseau d'accès, il n'y a plus qu'un seul équipement, l'eNodeB. Les eNB sont connectés au cœur de réseau via les S1, le contrôle est envoyer au MME, les paquets ip sont envoyer au S-GW( serving gateway). Les eNB sont connectés entre elles via des liens X2, ces liens servent à gérer le handover.
-
+![enter image description here](https://lh3.googleusercontent.com/h3R4v9-L3eXe09XYHKSLJrnUumt_JxrQ0fJnCMfUModyPoX5VvULDqACaihZckNsdZcpAe9ym5ys)
 
 
 ### eNodeB
@@ -80,7 +80,9 @@ Possède les fonctionnalités classique du réseau d'accès :
 * Positionnement, avec le timing advance de l'utilisateur on connais la distance de l'utilisateur par rapport à une station de base, avec 3 timing advance on connais la position de l'utilisateur.
 
 ### Coeur de réseau
-
+#### Packet Gateway
+2 fonctionnalités importantes :
+* Fin du tunnel IP, le bearer est établi entre le mobile et le packet gateway
 
 
 ---
@@ -172,5 +174,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwODA0ODA1XX0=
+eyJoaXN0b3J5IjpbMjEzOTg5NTI0N119
 -->
