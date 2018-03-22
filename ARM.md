@@ -99,7 +99,9 @@ Stock les données utilisateurs (abonnement, applications payantes, roaming, etc
 Etat de la facture. Donnes les droits d'accès au applications gratuite, etc.
 #### Enhanced Serving Mobile Location Center (E-SMLC)
 Coordonne le processus de localisation par triangulation. Choisit les ressource à utiliser, calcul la position et la vitesse.(**Gateway Mobile Location Center (GMLC)** autre équipement aussi utilisé)
-
+#### Etapes de la Connexion
+1. Connection RRC : UE - eNB
+2. Choix du MME (par l'eNB)
 
 ---
 ---
@@ -190,5 +192,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxMDI1NjM1XX0=
+eyJoaXN0b3J5IjpbMjYxOTAxMjY5XX0=
 -->
