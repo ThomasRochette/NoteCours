@@ -67,7 +67,6 @@ L'authentification est régulierement déclanché par le réseau.
 ---
 ---
 ## TP LTE
-
 ---
 #### Question 1.1 :
 Les algorithme supportés sont listés dans le message ATTACH_REQUEST, les algorithmes sont :
@@ -154,5 +153,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyMTAwMjBdfQ==
+eyJoaXN0b3J5IjpbNjQ0MDkxNzAyXX0=
 -->
