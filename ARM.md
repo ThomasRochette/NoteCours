@@ -86,7 +86,9 @@ Possède les fonctionnalités classique du réseau d'accès :
 * Fin du tunnel IP, le bearer est établi entre le mobile et le packet gateway
 * Fait tourner un serveur DHCP pour donner les IP aux utilisateurs
 Il fait aussi du filtrage au niveau des paquets (débats quant au non respect de la neutralité du web). C'est le dernier équipement IP de l'opérateur, il permet de sortir vers "l’extérieur", c'est sur cet équipement qu'on place la QoS.
-
+#### Serving Gateway (SGW)
+2 rôles important :
+* Compte la consommation de data  
 
 
 ---
@@ -178,5 +180,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDMwMDI3OF19
+eyJoaXN0b3J5IjpbLTE4NTQ4NzI0MjddfQ==
 -->
