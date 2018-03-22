@@ -89,8 +89,8 @@ Il fait aussi du filtrage au niveau des paquets (débats quant au non respect de
 #### Serving Gateway (SGW)
 2 rôles important :
 * Compte la consommation de data (Problématique sur le comptage : est ce que les en-tête sont compté dans la data, etc).
-* Mise en file d'attente des paquets q
-* C'est Ici que l'opérateur peut observer nos communications.
+* Mise en file d'attente des paquets quand l'utilisateur est en mode IDLE 
+C'est Ici que l'opérateur peut observer nos communications.
 
 
 ---
@@ -182,5 +182,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzcyMjkzNF19
+eyJoaXN0b3J5IjpbMTI3MDgxNTk0Nl19
 -->
