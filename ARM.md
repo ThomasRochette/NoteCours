@@ -98,8 +98,7 @@ Stock les données utilisateurs (abonnement, applications payantes, roaming, etc
 #### Policy Control and Charging Rules Fonction (PCRF)
 Etat de la facture. Donnes les droits d'accès au applications gratuite, etc.
 #### Enhanced Serving Mobile Location Center (E-SMLC)
-Coordonne le processus de localisation par triangulation. Choisit les ressource à utiliser, calcul la position et la vitesse.
-#### Gateway Mobile Location Center (GMLC)
+Coordonne le processus de localisation par triangulation. Choisit les ressource à utiliser, calcul la position et la vitesse.Gateway Mobile Location Center (GMLC)
 
 
 ---
@@ -191,5 +190,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTQyMDE1Nl19
+eyJoaXN0b3J5IjpbLTk1NDgwMjg4Nl19
 -->
