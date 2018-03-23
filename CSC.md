@@ -52,6 +52,7 @@ message|b|o|n|a|n|n|i|v|e|r|s|a|i|r|e
 --|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--
 mdp|v|i|g|e|n|e|r|e|v|i|g|e|n|e|r
 substitution|w|w|t|e|a|r|z|z|z|z|y|e|v|v|v
+
 Avec le mot de passe vigenere, sur le message "bon anniversaire" on obtient wwt earzzzzyevvv
 Au XVII^e^ siècle une technique qui consiste à représenter chaque lettre du message par un groupe de 5 lettre *A* ou *B* est développé, le chiffré est ainsi une succession de ces 2 lettres, ce procédé est équivalent à un codage binaire de l'alphabet sur 5 bits préfigurant le codage numérique sur 8 bits utilisé en informatique (ASCII).
 Au XIX^e^ siècle les moyens de transmissions sont utilisés avec un moyen de codage (télégraphe de Chappe). Le **chiffrement de [Playfair](https://fr.wikipedia.org/wiki/Chiffre_de_Playfair)** est inventé. Un Hollandais  expose les règles à respecter pour concevoir un bon système cryptographique, toujours valable actuellement, la principale est la suivante : la sécurité d'un système ne doit pas reposer sur le secret de la méthode de chiffrement.
