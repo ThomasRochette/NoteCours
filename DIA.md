@@ -1,7 +1,6 @@
 # DIA
 
 ---
-
 ---
 ## [Docker](http://cours.sewatech.fr/docker/slides/#2)
 ---
@@ -12,7 +11,7 @@ Docker créer une image docker dans un conteneur docker avec toutes les dépenda
 #### Architecture
 1 application = 1 conteneur
 
-**Virtual Machine vs Docker :**
+#### **Virtual Machine vs Docker :**
 Docker tourne directement sur le système machine au lieu de tourner sur le système d'exploitation
 
 #### En développement
@@ -144,5 +143,5 @@ association explicite :
 
 Docker compose s'utilise avec python.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI3MDc3NTVdfQ==
+eyJoaXN0b3J5IjpbMTI4MjIwOTA4M119
 -->
