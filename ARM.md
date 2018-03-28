@@ -113,7 +113,8 @@ MME -> SGW/PGW: Sélection
 SGW/PGW -> UE: Mise en place du bearer et allocation @IP
 ```
 
-
+---
+---
 ---
 ---
 ## TP LTE
@@ -203,5 +204,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTczMzY5MV19
+eyJoaXN0b3J5IjpbLTE0ODUyODM2NTddfQ==
 -->
