@@ -117,7 +117,7 @@ SGW/PGW -> UE: Mise en place du bearer et allocation @IP
 ---
 ## Annalyse des donneés mobiles
 ---
-Les opérateurs observent le réseau avec des probe pour pouvoir faire de la classification, de la prédiction,
+Les opérateurs observent le réseau avec des probe pour pouvoir faire de la classification, de la prédiction
 
 ---
 ---
@@ -208,5 +208,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2Nzc3NjNdfQ==
+eyJoaXN0b3J5IjpbMTM3Njk4MDI0MV19
 -->
