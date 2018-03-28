@@ -117,7 +117,7 @@ SGW/PGW -> UE: Mise en place du bearer et allocation @IP
 ---
 ## Annalyse des donneés mobiles
 ---
-Les opérateurs observent le réseau avec des probe pour pouvoir faire de la classification, de la prédiction et de la déte. Ils'utilisent aussi leurs application de gestion de compte pour récolter des données notamment au delà de ce qui concerne le réseau de l'opérateur. Les opérateurs achetant leur matériel RAN chez des constructeurs comme Nokia, Ericsson, Huawei, les métriques ne sont pas toujours les mêmes ils ont donc des spécialistes sur chaque technologies.
+Les opérateurs observent le réseau avec des probe pour pouvoir faire de la classification, de la prédiction et de la détection d'anomalies. Ils'utilisent aussi leurs application de gestion de compte pour récolter des données notamment au delà de ce qui concerne le réseau de l'opérateur. Les opérateurs achetant leur matériel RAN chez des constructeurs comme Nokia, Ericsson, Huawei, les métriques ne sont pas toujours les mêmes ils ont donc des spécialistes sur chaque technologies.
 
 ---
 ---
@@ -208,5 +208,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTc1ODIxOV19
+eyJoaXN0b3J5IjpbLTY2NzQ1NjUxNl19
 -->
