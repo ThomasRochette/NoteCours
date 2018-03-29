@@ -91,7 +91,7 @@ Il fait aussi du filtrage au niveau des paquets (débats quant au non respect de
 C'est Ici que l'opérateur peut observer nos communications. Lors du handover, le bearer est reconfiguré, à ce moment la QoS ne peut pas être garantie jusqu'à l'utilisateur, s'il n'y a pas de changement de S-GW on reconfigure uniquement entre l'eNB et le S-GW sinon on reconfigure tout.
 #### Mobility Managment Entity (MME)
 Sert à l'authentification, gère les zone de localisation, fait le paging, choisit le S-GW/P-GW, gère les bearer
-#### Home Subscriber Server (HSS)
+#### Home Subscriber Server (HLR/HSS)
 Stock les données utilisateurs (abonnement, applications payantes, roaming, etc). Mise à jour de la zone de localisation, identité du MME. Centre d'authentification.
 #### Policy Control and Charging Rules Fonction (PCRF)
 Etat de la facture. Donnes les droits d'accès au applications gratuite, etc.
@@ -208,5 +208,5 @@ Passer de LTE à UMTS pour un appel correspond à du fall back pas à du handove
 #### Question 3.1 :
 100Mbps
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzQ1NjUxNl19
+eyJoaXN0b3J5IjpbLTQyMjY4OTU3MV19
 -->
